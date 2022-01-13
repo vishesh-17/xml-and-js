@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<myMessage>
-  <subject>This is a welcome message</subject>
-  <date>Jan 31, 2018</date>
-</myMessage>
+<messages>
+  <mymessage>
+    <subject>This is a welcome message</subject>
+    <date>Jan 31, 2018</date>
+    <sender>me</sender>
+    <id_num>23</id_num>
+    <images>
+      <image>url1</image>
+    </images>
+  </mymessage>
+</messages>
