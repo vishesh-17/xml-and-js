@@ -24,3 +24,9 @@ should show url of your repo
   git commit -m "{message-here}"
   git push
 ```
+
+## add another remote
+
+```git
+  git remote add source https://github.com/OleksiiKachan/xml-and-js.git
+```
