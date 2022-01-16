@@ -1,4 +1,4 @@
-# Activity 1
+# Assignments 1
 
 1. Open `week-2/assignments/assignment.xml` in your browser. Are there any errors? Explain the error and fix it.
 2. What is the use of CDATA block in this document?
