@@ -1,6 +1,6 @@
 # Activity 1
 
-Design xml file for the following business card and save it to `week-2/assignmnents/activiy-1.xml`
+Design xml file for the following business card and save it to `week-2/assignments/activiy-1.xml`
 
 ---
 

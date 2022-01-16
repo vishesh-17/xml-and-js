@@ -13,4 +13,4 @@ Modify the XML file
 - Add currency symbol to the price data
 - Add Trademark symbol to the manufacturer data
 
-Save to `week-2/assignmnents/activiy-3.xml`
+Save to `week-2/assignments/activiy-3.xml`

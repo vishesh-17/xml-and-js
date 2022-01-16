@@ -10,6 +10,6 @@ And add following element to each product
 </message>
 ```
 
-Save to `week-2/assignmnents/activiy-4.xml`
+Save to `week-2/assignments/activiy-4.xml`
 
 _Tip_: Use character data
