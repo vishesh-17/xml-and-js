@@ -8,5 +8,7 @@
   },
   "author": "OleksiiKachan",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
 }
