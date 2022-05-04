@@ -1,0 +1,24 @@
+# Construction
+
+- constructions
+  - constrtuction
+    - contractors - array of strings
+    - workers
+      - firstName
+      - lastName
+      - role
+    - equipment
+      - item
+        - type
+        - qty
+    - address - object
+      - street - string
+      - city - string
+      - province/state - string
+      - country - string
+    - startDate
+    - endDate
+    - supply
+      - item
+        - material
+        - qty

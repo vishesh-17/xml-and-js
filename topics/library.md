@@ -1,0 +1,21 @@
+# Library
+
+- libraries
+  - library
+    - id
+    - name
+    - address - object
+      - street - string
+      - city - string
+      - province/state - string
+      - country - string
+    - specialty
+    - catalog
+      - book
+        - isbn
+        - title
+        - availability
+        - year
+        - genre
+        - description
+        - authors - array of strings

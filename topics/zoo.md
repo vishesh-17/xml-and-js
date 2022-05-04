@@ -1,0 +1,23 @@
+# Zoo
+
+- zoos
+  - zoo
+    - openTime
+    - closeTime
+    - location
+      - city - string
+      - province/state - string
+      - country - string
+    - employees - array
+      - employee - object
+        - id - string
+        - firstName - string
+        - empType - string
+        - position - string
+    - animals
+      - animal
+        - givenName
+        - speciesCommonName
+        - speciesScientificName
+        - DOB
+        - Sex

@@ -1,0 +1,27 @@
+# Software Companies
+
+- companies
+  - company
+    - name
+    - stockSymbol
+    - domain
+    - apps
+      - app
+        - id
+        - name
+        - currentVersion
+        - url
+    - employess
+      - employee
+        - id
+        - firstName
+        - lastName
+        - email
+        - userName
+        - occupation
+        - department
+        - empType
+        - devices
+          - device
+            - ip
+            - mac

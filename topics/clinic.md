@@ -1,0 +1,24 @@
+# Clinic
+
+- clinics
+  - clinic
+    - id
+    - address - object
+      - street - string
+      - city - string
+      - province/state - string
+      - country - string
+    - departments
+      - department
+        - id
+        - name
+        - employees
+          - employee
+            - id - string
+            - firstName - string
+            - position - string
+        - medicines
+          - medicine
+            - name
+            - manufacturer
+            - description

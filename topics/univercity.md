@@ -1,0 +1,27 @@
+# Univercity
+
+- schools - array
+  - school - object
+    - name - string
+    - address
+    - faculties - array
+      - faculty - object
+        - id - string
+        - firstName - string
+        - lastName - string
+        - empType - string
+        - phoneNumber - string
+        - courses - array of ids
+    - students - array
+      - student - object
+        - id - string
+        - firstName - string
+        - lastName - string
+        - DOB - string
+        - email - string
+        - courses - array of ids
+    - courses - array
+      - course
+        - id
+        - title
+        - description
