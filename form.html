@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <form id="myform" action="">
+        <label for="email">Your Email*</label>
+        <input type="text" required id="email" name="email" placeholder="Your Email">
+    <br>
+        <label for="date">Date Of Visit</label>
+        <input type="date" id="date" name="date" >
+    <br>
+    
+        <label for="comment">Your Comment</label> <br>
+        <textarea id="comment" name="comment" placeholder="Write something.." style="height:100px"></textarea>
+    <br>
+    <input type="button" onclick="myFunction()" id="myBtn" value="Submit Feedback">
+</form>
+
+      <p id="email"></p>
+      <p id="date"></p>
+      <p id="comment"></p>
+
+</body>
+<script>
+    function myFunction() {
+      let x = document.getElementById("myform").name;
+      document.getElementById("email").innerHTML = x;
+
+      let d = document.getElementById("myform").name;
+      document.getElementById("date").innerHTML = d;
+
+      let c = document.getElementById("myform").name;
+      document.getElementById("comment").innerHTML = c;
+    }
+    </script>
+
+</html>
