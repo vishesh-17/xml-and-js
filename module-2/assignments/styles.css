@@ -1,0 +1,15 @@
+originalName{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+category{
+    display: block;
+}
+description {
+    font-style: italic;
+  }
+
+ indicator{
+     color: red;
+ }
