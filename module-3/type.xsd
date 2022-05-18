@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" ?>
+
+<xs:element name="products">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="product" type="ProductType" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:complexType name="Products">
+    <xs:sequence>
+        <xs:element name="productName" type="xs:string">
+        <xs:element name="manufacturer" type="xs:string" >
+        <xs:element name="description" type="xs:string" >
+            <xs:complexType name="Prices">
+                <xs:sequence>
+                    <xs:element name="price" type:"xs:decimal">
+                </xs:sequence>
+            </xs:complexType>
+        <xs:element name="productItems" type="xs:string" >
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Products">
+    <xs:sequence>
+        <xs:element name="productName" type="xs:string">
+        <xs:element name="manufacturer" type="xs:string" >
+        <xs:element name="description" type="xs:string" >
+            <xs:complexType name="Prices">
+                <xs:sequence>
+                    <xs:element name="price" type:"xs:decimal">
+                </xs:sequence>
+            </xs:complexType>
+        <xs:element name="productItems" type="xs:string" >
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Products">
+    <xs:sequence>
+        <xs:element name="productName" type="xs:string">
+        <xs:element name="manufacturer" type="xs:string" >
+        <xs:element name="description" type="xs:string" >
+            <xs:complexType name="Prices">
+                <xs:sequence>
+                    <xs:element name="price" type:"xs:decimal">
+                </xs:sequence>
+            </xs:complexType>
+        <xs:element name="productItems" type="xs:string" >
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Products">
+    <xs:sequence>
+        <xs:element name="productName" type="xs:string">
+        <xs:element name="manufacturer" type="xs:string" >
+        <xs:element name="description" type="xs:string" >
+            <xs:complexType name="Prices">
+                <xs:sequence>
+                    <xs:element name="price" type:"xs:decimal">
+                </xs:sequence>
+            </xs:complexType>
+        <xs:element name="productItems" type="xs:string" >
+    </xs:sequence>
+</xs:complexType>
