@@ -4,11 +4,13 @@
     <html>
       <body>
         <h1 style="color:magenta;font-size:40px">Product List</h1>
-          <ol style="color:Blue;line-height: 30px; font-size: 24px;"><xsl:for-each select="products/product">
+          <ol style="color:Blue;line-height: 30px; font-size: 24px;">
+          <xsl:for-each select="products/product">
             <li>
               <xsl:value-of select="productName"/>
             </li>
-          </xsl:for-each></ol>
+          </xsl:for-each>
+          </ol>
       </body>
     </html>
   </xsl:template>
