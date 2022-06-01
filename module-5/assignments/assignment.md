@@ -1,4 +1,4 @@
-# Activity
+# Assignment
 
 - Create empty html file
 - Create empty script tag

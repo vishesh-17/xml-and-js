@@ -1,4 +1,4 @@
-# Assignment
+# Activity
 
 - Convert `people.json` into xml file
 - Create html file
