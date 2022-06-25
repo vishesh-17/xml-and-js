@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE LIBRARY [
+        <!ELEMENT LIBRARY (library)*>
+        <!ELEMENT library (id|name|address|specialty|catalog)*>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT address (street|city|region|country)*>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT region (#PCDATA)>
+        <!ELEMENT country (#PCDATA)>
+        <!ELEMENT specialty (#PCDATA)>
+        <!ELEMENT catalog (isbn|title|availability|year|genre|description|author)*>
+        <!ELEMENT isbn (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT availability (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT genre (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        ]>
 <LIBRARY>
     <library>
         <id>844fbd8c-d73b-45bd-9eda-9123ee18864d</id>
