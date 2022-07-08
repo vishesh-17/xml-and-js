@@ -51,4 +51,4 @@ const person = Person.of("Marcus Aurelius");
       console.log("obj.split() =", values[4]);
       console.log("-----Person Split-----");
       console.log("person.split() =", values[5]);
-    });
+ });
