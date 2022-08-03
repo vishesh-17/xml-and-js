@@ -1,6 +1,7 @@
 const http = require(`http`);
 
 const products = require("./controller/products");
+const lotr = require("./controller/lotr");
 
 const parseURLParams = (value) => {
   const params = new URLSearchParams(value);
@@ -24,6 +25,14 @@ const server = http.createServer(async (req, res) => {
     const id = basePath.split("/")[3];
 
     const { code, data } = await products.getById(id);
+    res.writeHead(code, { "Content-Type": "application/json" });
+    res.end(data);
+  } else if (basePath === `/api/lotr/books`) {
+    const { code, data } = await lotr.getAllBooks();
+    res.writeHead(code, { "Content-Type": "application/json" });
+    res.end(data);
+  } else if (basePath === `/api/lotr/movies`) {
+    const { code, data } = await lotr.getAllMovies();
     res.writeHead(code, { "Content-Type": "application/json" });
     res.end(data);
   } else {
