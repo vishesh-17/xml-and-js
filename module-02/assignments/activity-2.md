@@ -1,4 +1,4 @@
-# Activity 4
+# Activity 2
 
 Open `module-2/products.xml`
 
