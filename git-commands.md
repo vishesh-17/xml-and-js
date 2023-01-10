@@ -1,15 +1,5 @@
 # Git Commands
 
-## How to sync your fork with original repo
-
-[Syncing a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-from-the-command-line)
-
-```bash
-git fetch upstream
-git checkout main
-git merge upstream/main
-```
-
 ## How to create a branch
 
 ```bash
